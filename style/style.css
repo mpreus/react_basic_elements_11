@@ -1,7 +1,42 @@
-* {
+.currencyLines {
+	margin-bottom: 30px;
 	margin-left: 30px;
+}
+
+#root {
+	background-color: #dedede;
+	border: 1px solid navy;
+	border-radius: 4px;
+	margin: 10px auto;
+	width: 600px;
 }
 
 div {
 	margin: 10px 0;
+}
+
+.headerElem {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.headerElem p {
+	margin: 10px;
+}
+
+.footerElem {
+	line-height: 16px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.authorName {
+	color: navy;
+	font-weight: bold;
+}
+
+a {
+	color: navy;
+	text-decoration: none;
 }
